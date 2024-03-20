@@ -1,0 +1,35 @@
+.headerCont{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+.headerCont img{
+    height: auto;
+    width: 150px;
+    
+}
+
+li {
+    display: inline-block; 
+    margin-right: 100px; 
+    text-decoration: none;
+  }
+
+.upperThings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.upperThings h1{
+    margin-bottom: 0px;
+    
+}
+.upperThings p{
+    flex-direction: column;
+    margin-top: 4px;
+}
