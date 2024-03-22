@@ -85,7 +85,7 @@ body{
 .burgersF{
     display: grid;
     justify-content: center;
-   
+   margin-bottom: 80px;
     font-weight: bold;
     font-size: 36px;
 
@@ -102,4 +102,35 @@ body{
     margin: 8px;
     border: 4px solid #3882F6;
     border-radius: 10px;
+}
+.fCont p{
+    display: flex;
+    color: #00000088;
+    font-size: 18px;
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+}
+.qouteSection{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+   
+
+}
+.qoute{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    width: 1000px;
+    height: auto;
+
+}
+.author{
+    font-weight: bold;
+    color: #1F2937;
+    font-size: 24px;
+    display: flex;
+   justify-content: end;
 }
